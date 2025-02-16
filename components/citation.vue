@@ -288,7 +288,7 @@ const changeQuote = () => {
 }
 
 onMounted(() => {
-  setInterval(changeQuote, 3000)
+  setInterval(changeQuote, 30000)
 })
 </script>
 
